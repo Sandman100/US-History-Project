@@ -1,0 +1,110 @@
+<section class="container">
+
+			<!--DropDown Button-->
+
+			<div class="dropdown1">
+  				<button onclick="myFunction1()" class="dropbtn1">Switch Political Timelines</button>
+  				<div id="myDropdown1" class="dropdown-content1">
+    				<a href="#" onclick="toggleVisibility('politicalTimeline_20s');">Political 20's</a>
+    				<a href="#" onclick="toggleVisibility('politicalTimeline_60s');">Political 60's</a>
+  				</div>
+			</div>	
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<section class="container">
+		<section class="container">
+
+			<!--DropDown Button-->
+
+			<div class="dropdown">
+  				<button onclick="myFunction()" class="dropbtn">Switch 1920's Timelines</button>
+  				<div id="myDropdown" class="dropdown-content">
+    				<a href="#" onclick="toggleVisibility('politicalTimeline_20s');">Political 20's</a>
+    				<a href="#" onclick="toggleVisibility('politicalTimeline_60s');">Political 60's</a>
+  				</div>
+			</div>	
+		</section>
+
+
+			<div id="politicalTimeline_20s">
+			<header id="timeline_Title" class="container"><h3>Political Timeline</h3></header>
+				<section id="timeline_Section">
+					<ol>
+					 	<li>
+					    	<p class="diplome">Event A</p>
+					    	<span class="point"></span>
+					    	<p class="description">
+					      	Ceci est la description du bac S
+					    	</p>
+					  	</li>
+					 	<li>
+					    	<p class="diplome">Event 2</p>
+					    	<span class="point"></span>
+					    	<p class="description">En lien avec la biologie et/ou la zoologie</p>
+					  	</li>
+					 	<li>
+					    	<p class="diplome">Event 3</p>
+					    	<span class="point"></span>
+					    	<p class="description">En lien avec la biologie et/ou la zoologie</p>
+					  	</li>
+					  	<li>
+					    	<p class="diplome">Event 4</p>
+					      	<span class="point"></span>
+					   		<p class="description">TEST</p></li>
+					  	<li>
+					  		<p class="diplome">Event 5</p>
+					    	<span class="point"></span>
+					    	<p class="description">Souvent nécessaire pour pouvoir accéder aux concours d’embauche de centres de recherche tels que l’INRA ou le CNRS</p>
+					  	</li>
+					</ol>
+				</section>
+			</div>
+
+
+
+<div id="politicalTimeline_60s" style="display: none;">
+			<header id="timeline_Title" class="container"><h3>Political Timeline</h3></header>
+				<section id="timeline_Section">
+					<ol>
+					 	<li>
+					    	<p class="diplome">Event abc</p>
+					    	<span class="point"></span>
+					    	<p class="description">
+					      	Ceci est la description du bac S
+					    	</p>
+					  	</li>
+					 	<li>
+					    	<p class="diplome">Event 2</p>
+					    	<span class="point"></span>
+					    	<p class="description">En lien avec la biologie et/ou la zoologie</p>
+					  	</li>
+					 	<li>
+					    	<p class="diplome">Event 3</p>
+					    	<span class="point"></span>
+					    	<p class="description">En lien avec la biologie et/ou la zoologie</p>
+					  	</li>
+					  	<li>
+					    	<p class="diplome">Event 4</p>
+					      	<span class="point"></span>
+					   		<p class="description">TEST</p></li>
+					  	<li>
+					  		<p class="diplome">Event 5</p>
+					    	<span class="point"></span>
+					    	<p class="description">Souvent nécessaire pour pouvoir accéder aux concours d’embauche de centres de recherche tels que l’INRA ou le CNRS</p>
+					  	</li>
+					</ol>
+				</section>
+			</div>

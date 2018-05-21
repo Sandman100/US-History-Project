@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>US History Timline Website</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="Cultural.js"></script>
+</head>
+
+<body>
+
+	<header style="margin-left: 2em;" class="container"><h1 id="us_Title">US</h1> <h1 id="timelines_Title">Timelines</h1></header>
+	<hr class="top_Seperator">
+		<section class="container">
+		<section class="container">
+
+			<!--DropDown Button-->
+
+			<div class="dropdown">
+  				<button onclick="myFunction()" class="dropbtn">Switch Cultural Timelines</button>
+  				<div id="myDropdown" class="dropdown-content">
+    				<a href="#" onclick="toggleVisibility('culturalTimeline_20s');">Cultural 20's</a>
+    				<a href="#" onclick="toggleVisibility('culturalTimeline_60s');">Cultural 60's</a>
+  				</div>
+			</div>	
+		</section>
+
+
+			<div id="culturalTimeline_20s">
+			<header id="timeline_Title" class="container"><h3>Cultural Timeline</h3></header>
+				<section id="timeline_Section">
+					<ol>
+					 	<li>
+					    	<p class="diplome">1920</p>
+					    	<span class="point"></span>
+					    	<p class="description">
+					      	Celebrities started to emerge and people almost worshipped them religiously
+					    	</p>
+					  	</li>
+					 	<li>
+					    	<p class="diplome">1920- 1925</p>
+					    	<span class="point"></span>
+					    	<p class="description">Advertising emerged and within five years there were huge companies for advertising</p>
+					  	</li>
+					 	<li>
+					    	<p class="diplome">1920- 1921</p>
+					    	<span class="point"></span>
+					    	<p class="description">Radio emerged and became a massive part of everyday life and were widespread within a year</p>
+					  	</li>
+					</ol>
+				</section>
+			</div>
+
+
+
+<div id="culturalTimeline_60s" style="display: none;">
+			<header id="timeline_Title" class="container"><h3>Economical Timeline</h3></header>
+				<section id="timeline_Section">
+					<ol>
+					 	<li>
+					    	<p class="diplome">Event bde</p>
+					    	<span class="point"></span>
+					    	<p class="description">
+					      	Ceci est la description du bac S
+					    	</p>
+					  	</li>
+					 	<li>
+					    	<p class="diplome">Event 2</p>
+					    	<span class="point"></span>
+					    	<p class="description">En lien avec la biologie et/ou la zoologie</p>
+					  	</li>
+					 	<li>
+					    	<p class="diplome">Event 3</p>
+					    	<span class="point"></span>
+					    	<p class="description">En lien avec la biologie et/ou la zoologie</p>
+					  	</li>
+					  	<li>
+					    	<p class="diplome">Event 4</p>
+					      	<span class="point"></span>
+					   		<p class="description">TEST</p></li>
+					  	<li>
+					  		<p class="diplome">Event 5</p>
+					    	<span class="point"></span>
+					    	<p class="description">Souvent nécessaire pour pouvoir accéder aux concours d’embauche de centres de recherche tels que l’INRA ou le CNRS</p>
+					  	</li>
+					</ol>
+				</section>
+			</div>
+
+
+
+<a href="file:///Users/anderswood/Desktop/Website_USHistory/index.html" class="btn btn-info" role="button">Home</a>
+
+</body>
+
+</html>
