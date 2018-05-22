@@ -4,6 +4,12 @@
 	background-color: #bfbfbf;
 }
 
+.background_image {
+	background-image: url(flag.jpg);
+	background-size: cover;
+	background-repeat: repeat-y;
+}
+
 #timeline_Title {
 	color: #0033cc;
 }
